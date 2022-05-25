@@ -1,0 +1,11 @@
+NSN Project:
+
+Compile c++ file. To compile to Web Assembly enter following command to terminal
+
+emcc filename.cpp -o filename.html
+
+Then start http server in python shell with (in the same directory as emcc output files)
+
+python3 -m http.server
+
+then go to localhost:8000 and open html file.
